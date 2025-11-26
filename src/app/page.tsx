@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -10,7 +10,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Wine, Users, Clock, Star, Bottle2, Beer, UtensilsCrossed, Martini2, Music, Flame, Handshake, Trophy, Heart, Sparkles } from "lucide-react";
+import { Wine, Users, Clock, Star, Wine as Bottle, Beer, UtensilsCrossed, Wine as Martini, Music, Flame, Handshake, Trophy, Heart, Sparkles } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -74,7 +74,7 @@ export default function LandingPage() {
           animationType="slide-up"
           features={[
             {
-              icon: Bottle2,
+              icon: Bottle,
               title: "Authentic Ukrainian Vodka",
               description: "Premium selection of traditional and craft Ukrainian vodkas, each with its own unique character and heritage story"
             },
@@ -89,7 +89,7 @@ export default function LandingPage() {
               description: "Authentic Ukrainian dishes including varenyky, borsch, and hearty platters prepared with traditional recipes"
             },
             {
-              icon: Martini2,
+              icon: Martini,
               title: "Signature Cocktails",
               description: "Creative bar specials crafted by our talented bartenders, blending Ukrainian ingredients with modern techniques"
             }
